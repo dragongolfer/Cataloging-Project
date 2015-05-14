@@ -9,29 +9,24 @@
   
 <body>
 
-<form name="myform" onsubmit="return dropdown()" method="post">
-<div id="catalog">
-<select>
-	<option value="room">Room</option>
-	<option value="room2">Room2</option>
-</select>
+<form name="myform" onsubmit="return newthing()" method="post">
+Name:<br>
+<input type="text" name="field1" id="field1">
 <br>
-<select>
-	<option value="box">Box</option>
-	<option value="box2">Box2</option>
-</select>
+Message:<br>
+<input type="text" name="field2" id="field2">
 <br>
-<select>
-	<option value="item">Item</option>
-	<option value="item2">Item2</option>
-</select>
+Location:<br>
+<input type="text" name="field3" id="field3">
 <br>
-<input type="search" value="Search" id="search">
-</div>
+Parent Id:<br>
+<input type="number" name="field4" id="field4">
+<br>
+
+<input type="submit" value="Submit" id="submit">
 </form>
 
-<script src="pouchdb-3.5.0.min.js"></script>
-<script src='app.js'> </script>
+
 <script src='jquery.js'> </script>
 <script src='functions.js'> </script>
 </body>
