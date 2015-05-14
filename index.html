@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practice</title>
+  </head>
+  
+<body>
+
+<form name="myform" onsubmit="return dropdown()" method="post">
+<div id="catalog">
+<select>
+	<option value="room">Room</option>
+	<option value="room2">Room2</option>
+</select>
+<br>
+<select>
+	<option value="box">Box</option>
+	<option value="box2">Box2</option>
+</select>
+<br>
+<select>
+	<option value="item">Item</option>
+	<option value="item2">Item2</option>
+</select>
+<br>
+<input type="search" value="Search" id="search">
+</div>
+</form>
+
+<script src="pouchdb-3.5.0.min.js"></script>
+<script src='app.js'> </script>
+<script src='jquery.js'> </script>
+<script src='functions.js'> </script>
+</body>
+</html>
