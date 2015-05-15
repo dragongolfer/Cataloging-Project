@@ -1,5 +1,3 @@
-$(document).ready(function(){
-
 	alert("Hello world!");
 	var data = [];//array where everything is stored
 	var id = 0;//id is just
@@ -34,9 +32,10 @@ $(document).ready(function(){
 		//}
 		for(var i=0; i < data.length; i++){
 			s += '<option value="' + data[i] + '">' + data[i] + '</option>';}
-			create += '</select>';
+			s += '</select>';
 			$('#stuff').append(s);
 			console.log(i + data[i]);
+			console.log(i + s);
 			return false;
 		}
 	//console.log($(data).get[0]);
@@ -46,14 +45,14 @@ $(document).ready(function(){
 	//}
 	//loop through arrays and show things, list everything in a dropdown from the array
 	//parent id should be shown as dropdown
-
-
+$(document).ready(function(){
+browsething();
 	// $(document).ready(function(){
 		
 	// });
 });
 
-bind newthing to submit button or any button using .on
-$("submit").on("click", newthing(){
-	alert("The paragraph was clicked");
-});
+// bind newthing to submit button or any button using .on
+// $("submit").on("click", newthing(){
+// 	alert("The paragraph was clicked");
+// });
